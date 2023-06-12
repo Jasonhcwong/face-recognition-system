@@ -15,3 +15,9 @@ In the repo, the MTCNN library from PyPI is used for face detection and face ali
 A pre-trained MobileFaceNet model is used for embedding calculation, the training of the model can be find at [Kaggle](https://www.kaggle.com/code/jasonhcwong/mobilefacenet/).  
 A video from [YouTube](https://www.youtube.com/watch?v=R32qWdOWrTo) is used for demo of face recognition on video file. The video features Bryce Dallas Howard and Charlie Brooker.  
 Some photoes of them are added to the known persons database. 
+
+## Some example notebooks:  
+
+1.  benchmark.ipynb: demostrates how to run a LFW benchmark
+2.  detect_webcam.ipynb: demostrates a face recognition system using a webcam
+3.  process_video_file.ipynb: demostrates running face recognition on a video file
